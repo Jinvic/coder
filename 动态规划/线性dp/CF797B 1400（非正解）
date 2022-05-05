@@ -1,4 +1,6 @@
 //https://codeforces.com/problemset/problem/797/B
+//正解为构造
+//求所有正数之和，若为奇，输出；若为偶，减正奇数数最小值或加负奇数最大值
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
