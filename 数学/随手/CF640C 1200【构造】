@@ -1,0 +1,16 @@
+#https://codeforces.com/contest/1352/problem/C
+# import math
+# from decimal import *
+
+t = int(input())
+while(t > 0):
+    t -= 1
+    n, k = map(int, input().split(" "))
+    a = k//n
+    b = k % n
+    while(a):
+        k += a
+        c = a+b
+        a = c//n
+        b = c % n
+    print(k)
