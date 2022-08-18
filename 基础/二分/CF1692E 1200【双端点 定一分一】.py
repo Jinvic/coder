@@ -1,4 +1,4 @@
-#
+# https://codeforces.com/contest/1692/problem/E
 # import math
 # from decimal import *
 
